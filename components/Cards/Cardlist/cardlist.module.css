@@ -1,0 +1,168 @@
+.frameChild {
+    position: relative;
+    border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+    width: 18.5rem;
+    height: 17.81rem;
+    object-fit: cover;
+  }
+  .fullTime,
+  .travelGuide {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 1.25rem;
+  }
+  .travelGuide {
+    font-size: var(--font-size-5xl);
+    line-height: 2.13rem;
+    font-weight: 600;
+    color: var(--base-black);
+  }
+  .fullTimePartTimeParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .butHappyTo {
+    position: relative;
+    font-size: var(--text-s-regular-size);
+    letter-spacing: -0.1px;
+    line-height: 1.25rem;
+    color: var(--neutral-950);
+    display: inline-block;
+    width: 16.5rem;
+  }
+  .frameGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+  .placeholderIcon {
+    position: relative;
+    width: 1.25rem;
+    height: 1.25rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .text {
+    position: relative;
+    font-size: var(--text-button-semibold-large-size);
+    line-height: 1.38rem;
+    font-weight: 600;
+    font-family: var(--text-button-semibold-large);
+    color: var(--base-white);
+    text-align: center;
+  }
+  .button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xs) var(--padding-lg);
+    background-color: var(--purple-secondary-600);
+    border-radius: var(--br-81xl);
+    box-shadow: var(--shadow-xsm);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-7xs);
+  }
+  .button:hover {
+    background-color: var(--color-mediumslateblue);
+  }
+  .frameParent {
+    border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+    background-color: var(--base-white);
+    border: 1px solid var(--color-gainsboro);
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-base);
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+  }
+  .cardlistMoniter,
+  .cardlistMoniterInner,
+  .rectangleParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .cardlistMoniter,
+  .cardlistMoniterInner {
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: var(--gap-13xl);
+  }
+  .cardlistMoniter {
+    background-color: var(--base-white);
+    flex-direction: column;
+    padding: var(--padding-45xl) var(--padding-3xs);
+    box-sizing: border-box;
+    align-items: center;
+  }
+  .frameItem {
+    position: relative;
+    border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+    width: 20rem;
+    height: 17.81rem;
+    object-fit: cover;
+  }
+  .frameContainer {
+    border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+    background-color: var(--base-white);
+    border: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-base);
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+  }
+  .rectangleGroup {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+  }
+  .cardlistMobile,
+  .container,
+  .rectangleGroup {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .cardlistMobile {
+    width: 26.25rem;
+    display: none;
+    padding: var(--padding-13xl) 0;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--primary-900);
+    font-family: var(--text-button-semibold-large);
+  }
+  @media screen and (max-width: 420px) {
+    .cardlistMoniter {
+      display: none;
+    }
+    .cardlistMobile {
+      display: flex;
+    }
+  }
+  

@@ -1,0 +1,108 @@
+.buildYour {
+    margin: 0;
+  }
+  .headline,
+  .inThisStep {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 2.5rem;
+  }
+  .inThisStep {
+    font-size: var(--text-xl-regular-size);
+    letter-spacing: -0.1px;
+    line-height: 1.63rem;
+    display: inline-block;
+    width: 20rem;
+    height: 8.06rem;
+    flex-shrink: 0;
+  }
+  .headlineParent,
+  .typesAndFilters {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .headlineParent {
+    justify-content: center;
+    gap: 0.63rem;
+  }
+  .typesAndFilters {
+    overflow: hidden;
+    justify-content: flex-start;
+  }
+  .bannerMobile,
+  .typesAndFiltersWrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .typesAndFiltersWrapper {
+    background-color: var(--color-whitesmoke);
+    width: 26.25rem;
+    display: flex;
+    padding: var(--padding-13xl) 0;
+    box-sizing: border-box;
+  }
+  .bannerMobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  .buildYourSolid {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 3.75rem;
+    font-weight: 600;
+  }
+  .inThisStep1 {
+    position: relative;
+    font-size: var(--text-xl-regular-size);
+    letter-spacing: -0.1px;
+    line-height: 1.63rem;
+    display: inline-block;
+    width: 65.51rem;
+  }
+  .bannerMoniter,
+  .buildYourSolidCareerParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .buildYourSolidCareerParent {
+    align-self: stretch;
+    align-items: flex-start;
+    gap: var(--gap-base);
+    z-index: 0;
+  }
+  .bannerMoniter {
+    background-color: var(--color-whitesmoke);
+    width: 100%;
+    overflow: hidden;
+    padding: 4rem var(--padding-105xl);
+    box-sizing: border-box;
+    align-items: center;
+    font-size: var(--display-m-semibold-size);
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: var(--headline-m-desktop-bold-size);
+    color: var(--gray-700);
+    font-family: var(--text-xl-regular);
+  }
+  @media screen and (max-width: 420px) {
+    .bannerMobile {
+      display: flex;
+      width: 26.25rem;
+    }
+    .bannerMoniter {
+      display: none;
+    }
+    .container {
+      width: 26.25rem;
+    }
+  }
+  

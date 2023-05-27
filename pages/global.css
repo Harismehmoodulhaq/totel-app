@@ -1,18 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 body {
   margin: 0;
   line-height: normal;
 }
 :root {
   /* fonts */
+  --text-xl-regular: Inter;
   --text-button-semibold-large: Inter;
 
   /* font sizes */
+  --text-xl-regular-size: 1.13rem;
+  --display-m-semibold-size: 3.25rem;
+  --headline-m-desktop-bold-size: 2rem;
   --text-button-semibold-large-size: 0.94rem;
   --text-s-regular-size: 0.88rem;
   --text-l-medium-size: 1rem;
 
   /* Colors */
+  --color-whitesmoke: #f9f9f9;
+  --gray-700: #272d37;
   --base-white: #fff;
   --color-gainsboro: #dae0e6;
   --primary-600: #437ef7;
@@ -34,6 +40,8 @@ body {
   --gap-9xs: 0.25rem;
 
   /* Paddings */
+  --padding-105xl: 7.75rem;
+  --padding-13xl: 2rem;
   --padding-base: 1rem;
   --padding-3xs: 0.63rem;
   --padding-5xs: 0.5rem;
